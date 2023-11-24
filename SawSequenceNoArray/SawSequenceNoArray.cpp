@@ -6,7 +6,7 @@ int main()
     int n;
     cin >> n;
 
-    if (n> 16 && n < 3) {
+    if (n> 16 || n < 3) {
         cout << 0;
         return 0;
     }
